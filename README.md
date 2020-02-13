@@ -12,7 +12,7 @@ There are two files in the repository
  
  2. requirements.txt
  
- #Installation
+ # Installation
  
  1 . Clone the master branch onto you computer using 
  
@@ -25,35 +25,35 @@ There are two files in the repository
  
  # Sample Results
  
-####Inputs per node : 2 Output per nodes:  1 Total Examples 4
+#### Inputs per node : 2 Output per nodes:  1 Total Examples 4
  
-####First Input Layer weights
+#### First Input Layer weights
 
  [[0.22610361 0.31747275]
  [0.41350185 0.82768737]
  [0.03715283 0.84418771]]
 
- ####Second hidden Layer weights:
+ #### Second hidden Layer weights:
  
  [[0.15971483]
  [0.50496708]
  [0.36814746]]
  
-####Final Optimized weights obtained at epoch 6236
+#### Final Optimized weights obtained at epoch 6236
 
-####Best Optimized weights for hidden layer
+#### Best Optimized weights for hidden layer
 
  [[-2.94913902]
  [-7.08066765]
  [ 6.59867944]]
  
- ####Best Optimized weights for input  layer
+ #### Best Optimized weights for input  layer
  
  [[-4.93965186 -2.14266023]
  [ 3.25120436  5.50649927]
  [ 3.24328573  5.46086669]]
 
-####XOR Results :
+#### XOR Results :
 
 | Inputs | Predicted Output | Threshold Round Off Output Set(0.5) |   |   |
 |--------|------------------|-------------------------------------|---|---|
@@ -62,9 +62,9 @@ There are two files in the repository
 | [1 0]  | [0.91087817]     | 1                                   |   |   |
 | [1 1]  | [0.09999232]     | 0                                   |   |   |
 
-####Inputs per node :  4 Output per node : 1 Total Training Examples : 150
+#### Inputs per node :  4 Output per node : 1 Total Training Examples : 150
 
-####First Input Layer weights
+#### First Input Layer weights
 
  [[0.03798149 0.53173104 0.4949744  0.81307856 0.0692259 ]
  [0.02864592 0.84250294 0.32078802 0.85604693 0.37416741]
@@ -72,7 +72,7 @@ There are two files in the repository
  [0.30316658 0.29648333 0.4093306  0.58786459 0.54717666]
  [0.31789933 0.3785422  0.72244325 0.84319335 0.42054736]]
  
- ####Second hidden Layer weights:
+ #### Second hidden Layer weights:
  
  [[0.29585048]
  [0.43623687]
@@ -83,9 +83,9 @@ There are two files in the repository
  
 *****Model Training for input Sin Examples (150)***
 
-####Final Optimized weights obtained at epoch 1
+#### Final Optimized weights obtained at epoch 1
 
-####Predict final y_train
+#### Predict final y_train
  
  [[0.00424802]
  [0.00237187]
@@ -291,7 +291,7 @@ test_predict \ n [[0.00240314]
  [0.00441507]
  [0.00502588]]
  
-####Test Error percentage  26.004505833456403 %
+#### Test Error percentage  26.004505833456403 %
 
 #### Train Error percentage 26.79232304185279 %
 
